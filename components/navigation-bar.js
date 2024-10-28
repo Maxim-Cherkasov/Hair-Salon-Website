@@ -27,8 +27,8 @@ export function NavigationBar() {
             </SheetContent>
           </Sheet>
           
-          <Link href="/" className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold">StyleCuts Studio</h1>
+          <Link href="/" className="flex items-center">
+            <h1 className="pl-5 text-2xl font-bold">StyleCuts Studio</h1>
           </Link>
         </div>
 

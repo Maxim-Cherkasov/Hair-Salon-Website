@@ -22,7 +22,7 @@ export function HeroCarousel() {
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index}>
-              <AspectRatio ratio={16/6}>
+              <div className="h-[calc(100vh-64px)]">
                 <div 
                   className="w-full h-full bg-cover bg-center"
                   style={{ backgroundImage: `url(${image})` }}
@@ -34,7 +34,7 @@ export function HeroCarousel() {
                     </div>
                   </div>
                 </div>
-              </AspectRatio>
+              </div>
             </CarouselItem>
           ))}
         </CarouselContent>
